@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './LoginPopup.css'
-import { assets } from '../../Assets/assets'
+import { assets } from '../../assets/assets'
 import { bool } from 'prop-types'
 
 const LoginPopup = ({setShowLogin}) => {
