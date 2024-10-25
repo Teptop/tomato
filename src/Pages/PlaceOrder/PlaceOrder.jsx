@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { StoreContext } from '../../Context/StoreContext'
 import './PLaceOrder.css'
 
-const PLaceOrder = () => {
+const PlaceOrder = () => {
 
   const {getTotalCartAmount} = useContext(StoreContext)
 
@@ -52,4 +52,4 @@ const PLaceOrder = () => {
   )
 }
 
-export default PLaceOrder
+export default PlaceOrder
