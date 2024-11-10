@@ -1,0 +1,56 @@
+[33mcommit cf375be1e4b37a721217ab90b8717424e9623fea[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32menhance/TRP-001-fix-menu-first-letter[m[33m, [m[1;31morigin/enhance/TRP-001-fix-menu-first-letter[m[33m)[m
+Author: Teptop <teptopboy2015@gmail.com>
+Date:   Fri Oct 25 20:33:10 2024 +0300
+
+    fix menu first letter
+
+[33mcommit af609d81bd55933e51b3dade70a5c8bbec54147b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 6e65ed9 ec87dbc
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 20:17:26 2024 +0300
+
+    Merge pull request #1 from Teptop/feature/TRP-000-add-favicon
+    
+    Feature (000): Add Favicon And Change Tab Name
+
+[33mcommit ec87dbcd84e7933caa5b5c289ffa404067e35cf8[m
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 20:11:46 2024 +0300
+
+    add favicon and change tab name
+
+[33mcommit 6e65ed9388c7e4466a3c91c73f68b7d4ff38f291[m
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 20:03:31 2024 +0300
+
+    fix `PlaceOrder.css` typo
+
+[33mcommit 14446caaa238d920e191eeb82e335266da12ae13[m
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 20:01:50 2024 +0300
+
+    fix `assets` typo
+
+[33mcommit 8bf7df2a31565bb7c0ade664d9ca3f4f8ac5377b[m
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 19:59:01 2024 +0300
+
+    fix `PlaceOrder` type
+
+[33mcommit 44a8d50b5091293f57f71b2436f70d5797f47b64[m
+Author: Hassan Kotti <hkotti95@gmail.com>
+Date:   Fri Oct 25 19:57:39 2024 +0300
+
+    fix `PlaceOrder` type
+
+[33mcommit 761eb3122781fe45b3db31357056f004eb3d0403[m
+Author: Teptop <teptopboy2015@gmail.com>
+Date:   Fri Oct 25 19:48:33 2024 +0300
+
+    fix assets typo
+
+[33mcommit a90c91febc11d8386322f1790a91be2cc00b2ab6[m
+Author: Teptop <teptopboy2015@gmail.com>
+Date:   Fri Oct 25 19:41:05 2024 +0300
+
+    initial commit
