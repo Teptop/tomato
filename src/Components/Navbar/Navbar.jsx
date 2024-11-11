@@ -3,9 +3,12 @@ import './Navbar.css'
 import { assets } from '../../assets/assets';
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../Context/StoreContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import BarsMenu from '../BarsMenu/BarsMenu';
 
 
-const Navbar = ({setShowLogin}) => {
+const Navbar = ({setShowLogin,handelToggleBars,barsActive}) => {
   const [menu,setMenu] = useState('menu');
 
   const {getTotalCartAmount} = useContext(StoreContext);
@@ -25,6 +28,7 @@ const Navbar = ({setShowLogin}) => {
           <Link to='/cart'><img src={assets.basket_icon} alt="" /></Link>
           <div className={getTotalCartAmount()===0?'':'dot'}> </div>
         </div>
+        <div onClick={()=> handelToggleBars()} className='bars-btn'><FontAwesomeIcon icon={barsActive? faClose: faBars}/></div>
         <button onClick={()=>setShowLogin(true)}>sign in</button>
       </div>
     </div>

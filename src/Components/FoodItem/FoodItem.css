@@ -61,3 +61,16 @@
 .food-item-counter img{
     width: 30px;
 }
+
+@media (max-width:750px) {
+    .food-item{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+    .food-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+}

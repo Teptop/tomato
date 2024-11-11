@@ -7,11 +7,18 @@ import Cart from './Pages/Cart/Cart'
 import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 import Footer from './Components/Footer/Footer'
 import LoginPopup from './Components/LoginPopup/LoginPopup'
+import BarsMenu from './Components/BarsMenu/BarsMenu'
 
 
 const App = () => {
 
   const [showLogin,setShowLogin] = useState(false);
+
+  const [barsActive,setBarsActive] = useState(false);
+
+  const handelToggleBars = () => {
+    setBarsActive(!barsActive)
+  }
 
 
   return (
@@ -19,7 +26,8 @@ const App = () => {
     
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
      <div className='app'>
-      <Navbar setShowLogin={setShowLogin}/>
+      <Navbar setShowLogin={setShowLogin} handelToggleBars={handelToggleBars} barsActive={barsActive}/>
+      {barsActive? <BarsMenu/>:<></>}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Cart' element={<Cart/>}/>

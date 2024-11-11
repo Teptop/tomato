@@ -34,3 +34,13 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+
+@media (max-width:750px) {
+    .header-contents h2{
+        font-weight: 400;
+        font-size: max(4.3vw,20px);
+    }
+    .header-contents p{
+        display: none;
+    }
+}
