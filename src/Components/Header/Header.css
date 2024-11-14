@@ -35,6 +35,7 @@
     border-radius: 50px;
 }
 
+
 @media (max-width:750px) {
     .header-contents h2{
         font-weight: 400;

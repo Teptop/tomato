@@ -40,6 +40,26 @@
     background-color: gray;
     border: none;
 }
+@media (max-width:1080px){
+    .footer-content-left img{
+        width: 9rem;
+    }
+    .footer-content h2{
+        font-size: 1.2rem;
+    }
+    .footer-content-left p{
+        font-size: 0.8rem;
+    }
+    .footer-social-icons img{
+        width: 35px;
+    }
+    .footer-content-center li{
+        font-size: 0.9rem;
+    }
+    .footer-content-right li{
+        font-size: 0.9rem;
+    }
+}
 @media (max-width:750px) {
     .footer-content{
         display: flex;
